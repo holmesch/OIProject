@@ -29,15 +29,85 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="AxClass\CHK_OIFormHelper">
+      <SubType>Content</SubType>
+      <Name>CHK_OIFormHelper</Name>
+      <Link>CHK_OIFormHelper</Link>
+    </Content>
+    <Content Include="AxClass\CHK_TransformOI">
+      <SubType>Content</SubType>
+      <Name>CHK_TransformOI</Name>
+      <Link>CHK_TransformOI</Link>
+    </Content>
     <Content Include="AxClass\formRun_CHK_Extension">
       <SubType>Content</SubType>
       <Name>formRun_CHK_Extension</Name>
       <Link>formRun_CHK_Extension</Link>
     </Content>
+    <Content Include="AxClass\SysListPageInterActionBase_CHK_Extension">
+      <SubType>Content</SubType>
+      <Name>SysListPageInterActionBase_CHK_Extension</Name>
+      <Link>SysListPageInterActionBase_CHK_Extension</Link>
+    </Content>
+    <Content Include="AxClass\SysTableLookupBase_CHK_Extension">
+      <SubType>Content</SubType>
+      <Name>SysTableLookupBase_CHK_Extension</Name>
+      <Link>SysTableLookupBase_CHK_Extension</Link>
+    </Content>
+    <Content Include="AxClass\SysTableLookup_CHK_Extension">
+      <SubType>Content</SubType>
+      <Name>SysTableLookup_CHK_Extension</Name>
+      <Link>SysTableLookup_CHK_Extension</Link>
+    </Content>
     <Content Include="AxEdt\THK_OIValue">
       <SubType>Content</SubType>
       <Name>THK_OIValue</Name>
       <Link>THK_OIValue</Link>
+    </Content>
+    <Content Include="AxEdt\THK_OI_ControlCode">
+      <SubType>Content</SubType>
+      <Name>THK_OI_ControlCode</Name>
+      <Link>THK_OI_ControlCode</Link>
+    </Content>
+    <Content Include="AxEdt\THK_OI_DepartmentCode">
+      <SubType>Content</SubType>
+      <Name>THK_OI_DepartmentCode</Name>
+      <Link>THK_OI_DepartmentCode</Link>
+    </Content>
+    <Content Include="AxEdt\THK_OI_DivisionCode">
+      <SubType>Content</SubType>
+      <Name>THK_OI_DivisionCode</Name>
+      <Link>THK_OI_DivisionCode</Link>
+    </Content>
+    <Content Include="AxEnum\THK_OIControlLevelValue">
+      <SubType>Content</SubType>
+      <Name>THK_OIControlLevelValue</Name>
+      <Link>THK_OIControlLevelValue</Link>
+    </Content>
+    <Content Include="AxEnum\THK_OIModule">
+      <SubType>Content</SubType>
+      <Name>THK_OIModule</Name>
+      <Link>THK_OIModule</Link>
+    </Content>
+    <Content Include="AxTable\THK_OI_ControlCodeTableMapping">
+      <SubType>Content</SubType>
+      <Name>THK_OI_ControlCodeTableMapping</Name>
+      <Link>THK_OI_ControlCodeTableMapping</Link>
+    </Content>
+    <Content Include="AxTable\THK_OI_ControlLevel">
+      <SubType>Content</SubType>
+      <Name>THK_OI_ControlLevel</Name>
+      <Link>THK_OI_ControlLevel</Link>
+    </Content>
+    <Content Include="AxTable\THK_OI_DivisionDepartment">
+      <SubType>Content</SubType>
+      <Name>THK_OI_DivisionDepartment</Name>
+      <Link>THK_OI_DivisionDepartment</Link>
+    </Content>
+    <Content Include="AxTable\THK_OI_UserSetup">
+      <SubType>Content</SubType>
+      <Name>THK_OI_UserSetup</Name>
+      <Link>THK_OI_UserSetup</Link>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.Common.targets" />
