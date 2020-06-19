@@ -44,6 +44,11 @@
       <Name>formRun_CHK_Extension</Name>
       <Link>formRun_CHK_Extension</Link>
     </Content>
+    <Content Include="AxClass\LedgerJournalTable_CHK_Extension">
+      <SubType>Content</SubType>
+      <Name>LedgerJournalTable_CHK_Extension</Name>
+      <Link>LedgerJournalTable_CHK_Extension</Link>
+    </Content>
     <Content Include="AxClass\SysListPageInterActionBase_CHK_Extension">
       <SubType>Content</SubType>
       <Name>SysListPageInterActionBase_CHK_Extension</Name>
@@ -58,6 +63,16 @@
       <SubType>Content</SubType>
       <Name>SysTableLookup_CHK_Extension</Name>
       <Link>SysTableLookup_CHK_Extension</Link>
+    </Content>
+    <Content Include="AxClass\VendOpenInvoicesListPage_CHK_Extension">
+      <SubType>Content</SubType>
+      <Name>VendOpenInvoicesListPage_CHK_Extension</Name>
+      <Link>VendOpenInvoicesListPage_CHK_Extension</Link>
+    </Content>
+    <Content Include="AxClass\VendTable_CHK_Extension">
+      <SubType>Content</SubType>
+      <Name>VendTable_CHK_Extension</Name>
+      <Link>VendTable_CHK_Extension</Link>
     </Content>
     <Content Include="AxEdt\THK_OIValue">
       <SubType>Content</SubType>
@@ -79,6 +94,16 @@
       <Name>THK_OI_DivisionCode</Name>
       <Link>THK_OI_DivisionCode</Link>
     </Content>
+    <Content Include="AxEnumExtension\THK_OIControlLevelValue.OIModel">
+      <SubType>Content</SubType>
+      <Name>THK_OIControlLevelValue.OIModel</Name>
+      <Link>THK_OIControlLevelValue.OIModel</Link>
+    </Content>
+    <Content Include="AxEnumExtension\THK_OIModule.OIModel">
+      <SubType>Content</SubType>
+      <Name>THK_OIModule.OIModel</Name>
+      <Link>THK_OIModule.OIModel</Link>
+    </Content>
     <Content Include="AxEnum\THK_OIControlLevelValue">
       <SubType>Content</SubType>
       <Name>THK_OIControlLevelValue</Name>
@@ -88,6 +113,36 @@
       <SubType>Content</SubType>
       <Name>THK_OIModule</Name>
       <Link>THK_OIModule</Link>
+    </Content>
+    <Content Include="AxFormExtension\LedgerJournalTable.OIModel">
+      <SubType>Content</SubType>
+      <Name>LedgerJournalTable.OIModel</Name>
+      <Link>LedgerJournalTable.OIModel</Link>
+    </Content>
+    <Content Include="AxFormExtension\SalesTableListPage.OIModel">
+      <SubType>Content</SubType>
+      <Name>SalesTableListPage.OIModel</Name>
+      <Link>SalesTableListPage.OIModel</Link>
+    </Content>
+    <Content Include="AxFormExtension\VendOpenInvoicesListPage.OIModel">
+      <SubType>Content</SubType>
+      <Name>VendOpenInvoicesListPage.OIModel</Name>
+      <Link>VendOpenInvoicesListPage.OIModel</Link>
+    </Content>
+    <Content Include="AxFormExtension\VendTable.OIModel">
+      <SubType>Content</SubType>
+      <Name>VendTable.OIModel</Name>
+      <Link>VendTable.OIModel</Link>
+    </Content>
+    <Content Include="AxFormExtension\VendTableListPage.OIModel">
+      <SubType>Content</SubType>
+      <Name>VendTableListPage.OIModel</Name>
+      <Link>VendTableListPage.OIModel</Link>
+    </Content>
+    <Content Include="AxTableExtension\VendTrans.OIModel">
+      <SubType>Content</SubType>
+      <Name>VendTrans.OIModel</Name>
+      <Link>VendTrans.OIModel</Link>
     </Content>
     <Content Include="AxTable\THK_OI_ControlCodeTableMapping">
       <SubType>Content</SubType>
